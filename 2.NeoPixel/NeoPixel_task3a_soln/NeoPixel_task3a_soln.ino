@@ -20,7 +20,7 @@ void loop() {
     for(int i = 0; i<=NUMPIXELS;i++){
       pixels.setPixelColor(i, pixels.Color(232,192,24));
     }
-    pixels.show();z
+    pixels.show();
     delay(1000);
 
     for(int i = 0; i<=NUMPIXELS;i++){
