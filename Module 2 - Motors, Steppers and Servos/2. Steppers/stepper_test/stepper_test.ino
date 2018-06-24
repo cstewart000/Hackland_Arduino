@@ -18,7 +18,9 @@
 #define MS3 12
 
 int rpm = 15;
-A4988 stepper(MOTOR_STEPS, DIR, STEP, MS1, MS2, MS3);
+A4988 stepper1(MOTOR_STEPS, DIR, STEP, MS1, MS2, MS3);
+A4988 stepper2(MOTOR_STEPS, DIR, STEP, MS1, MS2, MS3);
+MultiDriver multiDriver(stepper1, stepper2);
 
 void setup() {
     // Set target motor RPM to 1RPM and microstepping to 1 (full step mode)

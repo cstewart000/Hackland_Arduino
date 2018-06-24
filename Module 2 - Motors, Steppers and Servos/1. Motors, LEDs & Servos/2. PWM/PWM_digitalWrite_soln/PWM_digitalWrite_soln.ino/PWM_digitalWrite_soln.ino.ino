@@ -13,7 +13,7 @@
 void setup() {
 
   pinMode(LED_PIN, OUTPUT);
-  pinMode(MOTOR_PIN, OUTPUT);
+ // pinMode(MOTOR_PIN, OUTPUT);
   pinMode(SERVO_PIN, OUTPUT);
   pinMode(POTENTIOMETER_PIN, INPUT);
  
