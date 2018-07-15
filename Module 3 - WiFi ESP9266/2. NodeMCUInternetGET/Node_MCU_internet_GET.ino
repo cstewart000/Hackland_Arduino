@@ -1,13 +1,25 @@
 /*
  *  Simple HTTP get webclient test
+ *  
+ *  
+ *  wifitest.adafruit.com/testwifi/index.html
+ *  
  */
 
 #include <ESP8266WiFi.h>
 
-const char* ssid     = "Hackland";
-const char* password = "hackland1";
+//NETWORK CONNECTION CREDENTIALS
+const char* ssid     = "Hackland"; // NAME OF WIFI NETWORK
+const char* password = "hackland1"; // PASSWORD
 
-const char* host = "wifitest.adafruit.com";
+//const char* host = "wifitest.adafruit.com";
+//String url = "/testwifi/index.html";
+
+//const char* host = "jsonplaceholder.typicode.com";
+//String url = "/posts/1";
+
+const char* host = "google.com";
+String url = "/search?q=esp8266";
 
 void setup() {
   Serial.begin(115200);
@@ -55,7 +67,7 @@ void loop() {
   }
   
   // We now create a URI for the request
-  String url = "/testwifi/index.html";
+  
   Serial.print("Requesting URL: ");
   Serial.println(url);
   
@@ -67,7 +79,8 @@ void loop() {
   
   // Read all the lines of the reply from server and print them to Serial
   while(client.available()){
-    String line = client.readStringUntil('\r');
+    //String line = client.readStringUntil('\r');
+    String line = client.readString();
     Serial.print(line);
   }
   
