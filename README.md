@@ -1,9 +1,15 @@
 # Hackland_Arduino
 
 Presentations at:
-Module 1 - https://docs.google.com/presentation/d/1gVjSLhoB8Z5Lif-pDBizyOusBj5XGNoLG7akWXFmAh0/edit?usp=sharing
+Module 1 - Fundamentals / Analog Read / Serial / Addressable LEDs 
+https://docs.google.com/presentation/d/1gVjSLhoB8Z5Lif-pDBizyOusBj5XGNoLG7akWXFmAh0/edit?usp=sharing
 
-Module 2 - https://docs.google.com/presentation/d/1LhHl6oIg6lTWvR-WQxfFMgsoYZEkoQKkQTMJe7mPEAk/edit?usp=sharing
+Module 2 - PWM / Servos / Steppers / (Kinematics)
+https://docs.google.com/presentation/d/1LhHl6oIg6lTWvR-WQxfFMgsoYZEkoQKkQTMJe7mPEAk/edit?usp=sharing
+
+Module 3 - WiFi / HTTP Client / HTTP Server / Webservices and IoT
+https://docs.google.com/presentation/d/1CN3V6kHNcPAYm51b4-UhdV-lLYHnBXMSvGK03QBwmWA/edit?usp=sharing
+
 
 Get the arduino Integrated Developement Environment (IDE) here:
 https://www.arduino.cc/en/Main/Software
