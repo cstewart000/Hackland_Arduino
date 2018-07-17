@@ -38,7 +38,7 @@ void setup() {
 }
  
 void loop() {
- if(digitalRead(button) == 0){
+ //if(digitalRead(button) == 0){
     delay(1000);
     data = analogRead(A0);
     Serial.print("connecting to ");
@@ -72,7 +72,7 @@ void loop() {
       client.stop();
       return;
     }
-  }
+  //}
   
   // Read all the lines of the reply from server and print them to Serial
   while(client.available()){

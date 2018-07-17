@@ -92,9 +92,9 @@ void loop() {
   client.print("Led is now: ");
  
   if(value == HIGH) {
-    client.print("On");
-  } else {
     client.print("Off");
+  } else {
+    client.print("ON");
   }
   client.println("<br><br>");
   client.println("<a href=\"/LED=ON\"\"><button>On </button></a>");

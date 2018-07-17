@@ -12,14 +12,14 @@
 const char* ssid     = "Hackland"; // NAME OF WIFI NETWORK
 const char* password = "hackland1"; // PASSWORD
 
-//const char* host = "wifitest.adafruit.com";
-//String url = "/testwifi/index.html";
+const char* host = "wifitest.adafruit.com";
+String url = "/testwifi/index.html";
 
 //const char* host = "jsonplaceholder.typicode.com";
 //String url = "/posts/1";
 
-const char* host = "google.com";
-String url = "/search?q=esp8266";
+//const char* host = "google.com";
+//String url = "/search?q=esp8266";
 
 void setup() {
   Serial.begin(115200);
