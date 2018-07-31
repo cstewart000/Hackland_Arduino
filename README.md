@@ -11,6 +11,19 @@ https://docs.google.com/presentation/d/1LhHl6oIg6lTWvR-WQxfFMgsoYZEkoQKkQTMJe7mP
 Module 3 - WiFi / HTTP Client / HTTP Server / Webservices and IoT
 https://docs.google.com/presentation/d/1CN3V6kHNcPAYm51b4-UhdV-lLYHnBXMSvGK03QBwmWA/edit?usp=sharing
 
+Module 4 - LCDs / Realtime Clock
+https://docs.google.com/presentation/d/15ZzK443ant0GpLtc-wPMcbFjuTsXmKRP70bJd0wPVKg/edit?usp=sharing
+
+Free Play session
+
+Module 5 - Control structures / Interrupts (planned)
+
+Module 6 - Temperature Sensors / PIR sensors / Accelerometer (planned)
+
+Project Session
+
+
+
 
 Get the arduino Integrated Developement Environment (IDE) here:
 https://www.arduino.cc/en/Main/Software

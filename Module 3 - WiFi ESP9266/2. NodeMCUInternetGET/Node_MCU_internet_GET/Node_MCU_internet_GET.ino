@@ -12,6 +12,9 @@
 const char* ssid     = "Hackland"; // NAME OF WIFI NETWORK
 const char* password = "hackland1"; // PASSWORD
 
+//const char* host = "wifitest.adafruit.com";
+//String url = "/testwifi/index.html";
+
 const char* host = "wifitest.adafruit.com";
 String url = "/testwifi/index.html";
 
