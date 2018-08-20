@@ -14,11 +14,12 @@ https://docs.google.com/presentation/d/1CN3V6kHNcPAYm51b4-UhdV-lLYHnBXMSvGK03QBw
 Module 4 - LCDs / Realtime Clock
 https://docs.google.com/presentation/d/15ZzK443ant0GpLtc-wPMcbFjuTsXmKRP70bJd0wPVKg/edit?usp=sharing
 
-Free Play session
+Module 5 - Buttons and Interrupts
+https://docs.google.com/presentation/d/1bfK69S3jOR0redv7HlWnwkAJkWoU_HgEWRRBMF4mcD0/edit?usp=sharing
 
-Module 5 - Control structures / Interrupts (planned)
+Module 6 - Control Structures (planned)
 
-Module 6 - Temperature Sensors / PIR sensors / Accelerometer (planned)
+Module 7 - Temperature Sensors / PIR sensors / Accelerometer (planned)
 
 Project Session
 
